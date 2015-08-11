@@ -8,6 +8,8 @@ bionic pogo chainsaw gorilla
 engine and tools:
 http://www.cocos2d-x.org/
 http://www.mapeditor.org/
+https://www.codeandweb.com/texturepacker
+github for windows https://windows.github.com/
 
 research links:
 http://www.mets-blog.com/cocos2d-x-platformer-tutorial-part-1/ (mehrteilige reihe über platformer entwicklung mit cocos2d)
@@ -16,3 +18,6 @@ http://www.raywenderlich.com/29458/how-to-make-a-tile-based-game-with-cocos2d-2-
 http://higherorderfun.com/blog/2012/05/20/the-guide-to-implementing-2d-platformers/
 http://www.learn-cocos2d.com
 http://info.sonicretro.org/Sonic_Physics_Guide
+
+howto use github:
+https://www.youtube.com/watch?v=LufnCoPShZE

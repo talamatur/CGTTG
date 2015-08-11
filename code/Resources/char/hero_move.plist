@@ -7,80 +7,80 @@
             <key>hero_move_1.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{2,2},{128,128}}</string>
+                <string>{{2,2},{64,128}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
                 <false/>
                 <key>sourceColorRect</key>
-                <string>{{0,0},{128,128}}</string>
+                <string>{{0,0},{64,128}}</string>
                 <key>sourceSize</key>
-                <string>{128,128}</string>
+                <string>{64,128}</string>
             </dict>
             <key>hero_move_2.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{132,2},{128,128}}</string>
+                <string>{{2,132},{64,128}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
                 <false/>
                 <key>sourceColorRect</key>
-                <string>{{0,0},{128,128}}</string>
+                <string>{{0,0},{64,128}}</string>
                 <key>sourceSize</key>
-                <string>{128,128}</string>
+                <string>{64,128}</string>
             </dict>
             <key>hero_move_3.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{262,2},{128,128}}</string>
+                <string>{{2,262},{64,128}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
                 <false/>
                 <key>sourceColorRect</key>
-                <string>{{0,0},{128,128}}</string>
+                <string>{{0,0},{64,128}}</string>
                 <key>sourceSize</key>
-                <string>{128,128}</string>
+                <string>{64,128}</string>
             </dict>
             <key>hero_move_4.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{392,2},{128,128}}</string>
+                <string>{{2,392},{64,128}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
                 <false/>
                 <key>sourceColorRect</key>
-                <string>{{0,0},{128,128}}</string>
+                <string>{{0,0},{64,128}}</string>
                 <key>sourceSize</key>
-                <string>{128,128}</string>
+                <string>{64,128}</string>
             </dict>
             <key>hero_move_5.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{522,2},{128,128}}</string>
+                <string>{{2,522},{64,128}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
                 <false/>
                 <key>sourceColorRect</key>
-                <string>{{0,0},{128,128}}</string>
+                <string>{{0,0},{64,128}}</string>
                 <key>sourceSize</key>
-                <string>{128,128}</string>
+                <string>{64,128}</string>
             </dict>
             <key>hero_move_6.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{652,2},{128,128}}</string>
+                <string>{{2,652},{64,128}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
                 <false/>
                 <key>sourceColorRect</key>
-                <string>{{0,0},{128,128}}</string>
+                <string>{{0,0},{64,128}}</string>
                 <key>sourceSize</key>
-                <string>{128,128}</string>
+                <string>{64,128}</string>
             </dict>
         </dict>
         <key>metadata</key>
@@ -90,9 +90,9 @@
             <key>realTextureFileName</key>
             <string>hero_move.png</string>
             <key>size</key>
-            <string>{782,132}</string>
+            <string>{68,782}</string>
             <key>smartupdate</key>
-            <string>$TexturePacker:SmartUpdate:515d56a541efc7a3bf2a0438b60edde9:5bfca0d8ae9ad85c854a809f3d450ed3:3133f90079fdd37b81d06b3e1dc766ad$</string>
+            <string>$TexturePacker:SmartUpdate:a274c967fd8c1d9a19678967acfb300b:25fdb7b778a82e6d98cb738fe7c7241c:3133f90079fdd37b81d06b3e1dc766ad$</string>
             <key>textureFileName</key>
             <string>hero_move.png</string>
         </dict>

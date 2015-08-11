@@ -18,4 +18,9 @@
    eJztmEsLwjAQhD169YVVD6KefEEVRT3Z//+rugsplkTbTYzdxewHQw8JzZAhndC8p0jjxm1AcbhzG1AcntwGFIeC20Di5NwGFAftc3lI6vONUepon8ujMM/MqM/gYQAaMawrgann/APo+AsjNVLOA6nOAO7D0JK9LxfQlfjeccvY5MNY6nkgeE5moLmlxZu5jw59pQy1KzQPWYTmsQKtYxr5Q3z7HAnNo6kzlBcZYc4WtAPtjULQPOgsW8ZPoPOXa1DzqGffxf1aKk3f9xgdTs2jyh7/mfjcrxUlNiWEVwrT
   </data>
  </layer>
+ <layer name="enemy" width="100" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzt0zENAAAIwDB0gX9fOODgISStgj2LAAAAJnkdAA/5BgAAgLoOgIUGGu8AsA==
+  </data>
+ </layer>
 </map>

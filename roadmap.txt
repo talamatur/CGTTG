@@ -1,7 +1,4 @@
 == roadmap ==
-animation recherschieren und laufen einbauen
-stefan: idle position
-
 Turret schiesst. spieler bekommt schaden(?)
 steuerung für gamepad einbauen, springen eigene Taste
 spieler schiesst in 8 richtungen

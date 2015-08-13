@@ -1,6 +1,9 @@
 #ifndef __GameLevelLayer_H__
 #define __GameLevelLayer_H__
 
+#include "gameobjects\Turret.h"
+
+// Cocos
 #include "cocos2d.h"
 #include "ui/UIText.h"
 
@@ -25,6 +28,9 @@ private:
 
 	void gameOver(bool wintheGame);
 	bool checkForWin();
+
+	// Populate
+	void createEnemies();
 
 	// Collision
 	cocos2d::Vec2 tileCoordForPosition(cocos2d::Vec2 position);
@@ -82,6 +88,8 @@ private:
 	cocos2d::Sprite* mDebug_TopRight;
 	cocos2d::Sprite* mDebug_BotomLeft;
 	cocos2d::Sprite* mDebug_BotomRight;
+
+	std::vector<Turret*> mTurrets;
 };
 
 #endif // __GameLevelLayer_H__

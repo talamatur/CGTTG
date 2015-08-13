@@ -88,16 +88,16 @@ void PlayerClass::update(float elapsedTime)
 	// animation
 	if (abs(mVelocity.x) > 1)
 	{
-		//mAnimationState = AnimationState_Move;
+		mAnimationState = AnimationState_Move;
 
-		//if (this->numberOfRunningActions() == 0)
-		//{
-		//	auto animation = cocos2d::AnimationCache::getInstance()->animationByName("walk");
-		//	auto animate = cocos2d::Animate::create(animation);
-		//	runAction(animate);
-		//}
+		if (this->numberOfRunningActions() == 0)
+		{
+			//auto animation = cocos2d::AnimationCache::getInstance()->animationByName("hero_move%d");
+			//auto animate = cocos2d::Animate::create(animation);
+			//runAction(animate);
+		}
 
-		//this->setFlippedX((mVelocity.x > 1));
+		this->setFlippedX((mVelocity.x < -1));
 	}
 	else
 	{

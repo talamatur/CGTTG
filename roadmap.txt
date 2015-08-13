@@ -1,0 +1,16 @@
+== roadmap ==
+animation recherschieren und laufen einbauen
+stefan: idle position
+
+Turret schiesst. spieler bekommt schaden(?)
+steuerung für gamepad einbauen, springen eigene Taste
+spieler schiesst in 8 richtungen
+bewegter gegner (links, rechts, zwischen durch mal schiessen. HAHAHA)
+
+plattformunterstützung: unterstützung der eigentlichen plattform (änderung der collisionsabfrage)
+stefan: spikes layer -> "enemy" unbennen diesen mit tileinformationen füllen (auch für gegner)
+
+add LAZERS support
+
+problem Fordergrund render Reinfolge. zb Zäune oder dreck so vor dem Spieler sein.
+alternative zu GitHub suchen

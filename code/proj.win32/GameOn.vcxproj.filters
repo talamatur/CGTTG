@@ -33,6 +33,9 @@
     <ClCompile Include="..\Classes\level\MainMenuLayer.cpp">
       <Filter>src\level</Filter>
     </ClCompile>
+    <ClCompile Include="..\Classes\gameobjects\Turret.cpp">
+      <Filter>src\gameobjects</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h">
@@ -52,6 +55,9 @@
     </ClInclude>
     <ClInclude Include="..\Classes\level\MainMenuLayer.h">
       <Filter>src\level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameobjects\Turret.h">
+      <Filter>src\gameobjects</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

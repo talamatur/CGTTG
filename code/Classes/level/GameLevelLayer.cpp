@@ -108,7 +108,7 @@ bool GameLevelLayer::init()
 
 	Size visibleSize = Director::getInstance()->getVisibleSize();
 	Vec2 origin = Director::getInstance()->getVisibleOrigin();
-
+	
 	/////////////////////////////
 	// 2. add a menu item with "X" image, which is clicked to quit the program
 	//    you may modify it.
@@ -147,15 +147,16 @@ bool GameLevelLayer::init()
 	
 	// Load the map
 	mMap = new TMXTiledMap();
-	mMap->initWithTMXFile("level/level1.tmx");
+	mMap->initWithTMXFile("level/m01.tmx");
 	addChild(mMap);
+	createEnemies();
 
 	mPlayer = PlayerClass::create("char/hero_idle.png");
 	mPlayer->setPosition(Vec2(64 * 5, (64 * 1)+1));
 	mMap->addChild(mPlayer, 15);	// Adding the player to the map!
 
 	// load the animations
-	AnimationCache::getInstance()->addAnimationsWithFile("char/solbrain-animations.plist");
+	AnimationCache::getInstance()->addAnimationsWithFile("char/hero_move.plist");
 
 	// adding a update function
 	this->schedule(schedule_selector(GameLevelLayer::update));
@@ -267,13 +268,40 @@ void GameLevelLayer::update(float elapsedTime)
 bool GameLevelLayer::checkForWin()
 {
 	cocos2d::Vec2 playerPosition = tileCoordForPosition(mPlayer->getPosition());
-	if (playerPosition.x > 37)
+	if (playerPosition.x > 80)
 	{
 		gameOver(true);
 		return true;
 	}
 	// Maybe the previosly collision checks detect a falling in the ground
 	return mGameOver;
+}
+
+void GameLevelLayer::createEnemies()
+{
+	// Scan the level for information about enemeys
+	cocos2d::TMXLayer* enemyLayer = mMap->getLayer("enemy");
+	if (enemyLayer)
+	{
+		for (int x = 0; x < mMap->getMapSize().width; ++x)
+		{
+			for (int y = 0; y < mMap->getMapSize().height; ++y)
+			{
+				cocos2d::Vec2 point(x, y);
+				int tgid = enemyLayer->getTileGIDAt(point);
+				if (tgid != 0)
+				{
+					Turret* turret = Turret::create("char/enemy_robot.png");
+					if (turret)
+					{
+						turret->setPosition(x * mMap->getTileSize().width, ((mMap->getMapSize().height - y -1) * mMap->getTileSize().height) + 1);
+						mMap->addChild(turret, 5);
+						mTurrets.push_back(turret);
+					}
+				}
+			}
+		}
+	}
 }
 
 void GameLevelLayer::gameOver(bool winTheLevel)

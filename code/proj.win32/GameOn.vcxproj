@@ -146,6 +146,7 @@ xcopy "$(ProjectDir)..\Resources" "$(OutDir)" /D /E /I /F /Y
   <ItemGroup>
     <ClCompile Include="..\Classes\AppDelegate.cpp" />
     <ClCompile Include="..\Classes\gameobjects\PlayerClass.cpp" />
+    <ClCompile Include="..\Classes\gameobjects\Turret.cpp" />
     <ClCompile Include="..\Classes\level\GameLevelLayer.cpp" />
     <ClCompile Include="..\Classes\level\MainMenuLayer.cpp" />
     <ClCompile Include="main.cpp" />
@@ -153,6 +154,7 @@ xcopy "$(ProjectDir)..\Resources" "$(OutDir)" /D /E /I /F /Y
   <ItemGroup>
     <ClInclude Include="..\Classes\AppDelegate.h" />
     <ClInclude Include="..\Classes\gameobjects\PlayerClass.h" />
+    <ClInclude Include="..\Classes\gameobjects\Turret.h" />
     <ClInclude Include="..\Classes\globals.h" />
     <ClInclude Include="..\Classes\level\GameLevelLayer.h" />
     <ClInclude Include="..\Classes\level\MainMenuLayer.h" />

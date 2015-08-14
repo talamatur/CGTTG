@@ -9,5 +9,7 @@ stefan: spikes layer -> "enemy" unbennen diesen mit tileinformationen füllen (au
 
 add LAZERS support
 
+spiel wichtige variablen aus textfiles lesen
+
 problem Fordergrund render Reinfolge. zb Zäune oder dreck so vor dem Spieler sein.
 alternative zu GitHub suchen
